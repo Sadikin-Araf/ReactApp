@@ -1,9 +1,13 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
+import Slider from "./components/header";
 import NainNav from './components/navbar';
 
 function App(){
-  return <NainNav /> 
+  return <div>
+    <NainNav /> 
+    <Slider />
+  </div>
 
 }
 export default App;

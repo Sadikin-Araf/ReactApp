@@ -6,7 +6,7 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav{
-    background-color: rgba(0, 191, 255, 0.5);
+    background-color: #00000080;
     position: fixed;
     width: 100vw;
     overflow: hidden;
@@ -27,8 +27,19 @@ body{
 }
 .menuItem li{
     list-style: none;
-    padding: 0px 10px;
+    padding: 0px 12px;
 }
 .menuItem a{
     text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.headerTitle{
+    width: 100vw;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    background: #bbffef;
 }
