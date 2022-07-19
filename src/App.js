@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDOM from 'react-dom/client';
+import NainNav from './components/navbar';
 
-function App() {
-  return (
-    <div className='texts'>React App</div>
-  );
+function App(){
+  return <NainNav /> 
+
 }
-
 export default App;
